@@ -1,0 +1,57 @@
+@media (250px <= width <= 449.98px) {
+
+    .calculator {
+        padding: 15px;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .calculator form .calc-button, .clear-button, .del-button {
+        width: 53px;
+        height: 53px;
+        font-size: 15px;
+    }
+
+    .calculator form .calc-equal-button {
+        width: 116px;
+        height: 53px;
+        font-size: 15px;
+        padding-top: 1px;
+    }
+
+    .calculator form .calc-display {
+        width: 240px;
+        height: 65px;
+        font-size: 25px;
+    }
+
+}
+
+@media (150px <= width <= 249.98px) {
+    .calculator {
+        padding: 10px;
+        width: 100%;
+        max-width: 150px;
+    }
+    .calculator form .calc-button, .clear-button, .del-button {
+        width: 32px;
+        height: 35px;
+        font-size: 8px;
+        margin: 1px;
+        padding: 0px;
+    } 
+
+    .calculator form .calc-equal-button {
+        width: 70px;
+        height: 35px;
+        font-size: 10px;
+        padding-top: 0px;
+        margin-left: 1px;
+    }
+
+    .calculator form .calc-display {
+        width: 140px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
